@@ -78,7 +78,7 @@ class Customer:
         if restaurant_obj:
             restaurant.id = restaurant_obj.id
             new_review.restaurant = restaurant_obj
-            new_review.save()  # Save the new review to the database
+            new_review.save()  
         else:
             print(f"Restaurant with ID {restaurant.id} not found.")
 

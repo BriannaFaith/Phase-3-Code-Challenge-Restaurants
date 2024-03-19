@@ -10,7 +10,7 @@ class Review:
         self.id = None
         self.customer_id = customer_id
         self.restaurant_id = restaurant_id
-        self.star_rating= star_rating  # Renamed to avoid conflict with method name
+        self.star_rating= star_rating 
         Review.all_reviews[self.id] = self
 
     def __str__(self):

@@ -85,8 +85,4 @@ class Restaurant:
             return restaurant
         else:
             return None
-
-restaurant = Restaurant("Test Restaurant", 5000)
-Restaurant.create_table()
-fanciest_restaurant = Restaurant.fanciest()
-print(fanciest_restaurant)
+        
